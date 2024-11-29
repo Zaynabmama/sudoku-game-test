@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# **NavyBits Sudoku Challenge**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a comprehensive Sudoku game built with **React** and **TypeScript**, featuring multiple difficulty levels, puzzle generation, solving capabilities, and image-based Sudoku solving using **Tesseract.js**.
+
+## **Available Features**
+
+- **Interactive 9x9 Sudoku board**
+- **Difficulty levels**: Easy, Medium, Hard
+- **Real-time conflict detection**
+- **Puzzle generation algorithm**
+- **Manual board solving**
+- **Hint functionality**
+- **Image-based Sudoku solving with OCR**
+## **Technologies Used** 
+
+- React: Frontend framework for building the user interface.
+- TypeScript: For type safety and better code quality.
+- Tesseract.js: An OCR library to solve Sudoku puzzles using images.
+- CSS Modules: Scoped styling for a modular and maintainable codebase.
+
+  
+## **Development Notes**
+
+- Backtracking Algorithm: Implemented a backtracking algorithm for puzzle generation and solving.
+- Image Recognition: Used Tesseract.js for solving Sudoku puzzles via OCR.
+- Modular Architecture: The project follows a modular component structure for better scalability and readability.
+- Error Handling: The app includes robust error handling and validation for a smooth user experience.
+
+
+## **Challenge Targets**
+
+- Basic Game UI and Manual Input: Build the Sudoku board with input fields.
+- Game Logic and Validation: Implement Sudoku rules and board validation.
+- Puzzle Generator: Create a Sudoku puzzle generator using the backtracking algorithm.
+- Manual Solver: Allow users to manually solve puzzles.
+- Image-Based Solver: Use Tesseract.js for solving Sudoku puzzles from images.
+
+## **Getting Started**
+
+To get started with this project, follow these steps:
+
+clone therepo (https://github.com/Zaynabmama/sudoku-game-test).
 
 ## Available Scripts
 
