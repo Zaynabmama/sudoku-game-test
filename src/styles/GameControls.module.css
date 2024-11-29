@@ -1,0 +1,27 @@
+.gameControls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.controlButton {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4a4a4a;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.controlButton:hover {
+  background-color: #6a6a6a;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.controlButton:active {
+  transform: translateY(0);
+  box-shadow: none;
+}

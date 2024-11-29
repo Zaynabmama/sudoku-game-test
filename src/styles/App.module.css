@@ -1,0 +1,34 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .appHeader {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .appHeader h1 {
+    color: #4a4a4a;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .gameContainer {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  @media (max-width: 1024px) {
+    .gameContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
